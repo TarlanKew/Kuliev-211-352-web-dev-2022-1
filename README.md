@@ -4,4 +4,4 @@
 
 1. [lab1](https://github.com/TarlanKew/lab1)
 2. [lab2](https://github.com/TarlanKew/lab2)
-3. [lab3](https://github.com/TarlanKew/lab_3)
+3. [lab3](https://github.com/TarlanKew/lab3)
