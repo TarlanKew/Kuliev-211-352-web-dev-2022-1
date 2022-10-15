@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/visually-hidden.css">
+  <link rel="stylesheet" href="./css/main.css" />
+  <title>L_R_2</title>
+</head>
+
+<body>
+  <div class="full-page">
+    <div class="form-box">
+      <div class="form">
+        <form class="form__login" action="https://httpbin.org/post" method="POST">
+          <h1 class="form__heading">Форма входа</h1>
+          <label for="email" class="visually-hidden"><span>Адрес электронной почты</span></label>
+          <input type="email" id="email" name="email" placeholder="Адрес электронной почты">
+
+          <label for="password" class="visually-hidden">Пароль</label>
+          <input type="password" id="password" name="password" placeholder="Пароль">
+
+          <label for="remember"><span>Запомнить меня</span></label>
+          <input type="checkbox" id="remember" name="remember" class="remember">
+
+          <button>Войти</button>
+          <p class="form__message">Незарегистрированный? <a href="#">Зарегистрироваться</a></p>
+        </form>
+        <form class="register-form" action="https://httpbin.org/post" method="POST">
+          <h2 class="form__heading">Форма регистрации</h2>
+          <label for="fio"><span>ФИО</span></label>
+          <input type="text" id="fio" name="fio">
+
+          <label for="email"><span>Адрес электронной почты</span></label>
+          <input type="email" id="email" name="email">
+
+          <div class="question">
+            <label for="question"><span>Откуда узнали о нас?</span></label>
+            <input type="radio" id="question" name="question" value="1"><span>Рассказали друзья</span>
+            <input type="radio" id="question" name="question" value="2"><span>Реклама в интернете</span>
+          </div>
+
+          <div class="dropdown">
+            <label for="dropdown"><span>Категория обращения</span></label>
+            <select name="dropdown" id="dropworn">
+              <option value="1">Предложение</option>
+              <option value="2">Жалоба</option>
+            </select>
+          </div>
+
+          <div class="area">
+            <label for="area"><span>Текст сообщения</span></label>
+            <textarea name="area" id="text" class="area__text" cols="30" rows="6"></textarea>
+          </div>
+
+          <label for="dropfiles"><span>Вложение</span></label>
+          <input type="file" id="dropfiles">
+
+          <div class="radio">
+            <input type="checkbox" id="agreement" />
+            <label for="agreement"><span>Даю согласие на обработку персональных данных</span></label>
+          </div>
+          <button>Зарегистироваться</button>
+          <p class="form__message">Зарегистрированны? <a href="#">Войдите в аккаунт</a></p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script>
+    $(".form__message").click(function () {
+      $("form").animate({
+          height: "toggle",
+          opacity: "toggle",
+        }, "slow"),
+        $(".form-box").toggleClass('form-box--active', 'slow');
+    });
+  </script>
+  </div>
+</body>
+
+</html>
