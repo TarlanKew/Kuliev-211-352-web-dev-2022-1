@@ -1,0 +1,27 @@
+.about {
+  margin-top: 80px;
+  margin-bottom: 200px;
+}
+
+.about__image {
+  width: 400px;
+  height: 400px;
+  float: right;
+  border-radius: 24px;
+}
+.about__text {
+  max-width: 500px;
+  color: white;
+}
+
+.about__skills {
+  padding-top: 14px;
+  color: white;
+}
+.about__list {
+  color: white;
+  list-style-type: circle;
+}
+.about__list .list__item {
+  padding-top: 8px;
+}
