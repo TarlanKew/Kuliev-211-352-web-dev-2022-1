@@ -2,7 +2,14 @@
 
 ## References to commit repositories
 
-1. [lab1](https://github.com/TarlanKew/lab1) https://tarlankew.github.io/lab1/
-2. [lab2](https://github.com/TarlanKew/lab2) https://tarlankew.github.io/lab2/
-3. [lab3](https://github.com/TarlanKew/lab3) https://tarlankew.github.io/lab3/
-4. [lab4](https://github.com/TarlanKew/lab4) https://tarlankew.github.io/lab4/
+1. [lab1-link-to-repo](https://github.com/TarlanKew/lab1)
+2. [lab1-link-to-hosting](https://tarlankew.github.io/lab1/)
+
+4. [lab2-link-to-repo](https://github.com/TarlanKew/lab2)
+5. [lab2-link-to-hosting](https://tarlankew.github.io/lab2/)
+
+7. [lab3-link-to-repo](https://github.com/TarlanKew/lab3)
+8. [lab3-link-to-hosting](https://tarlankew.github.io/lab3/)
+
+10. [lab4-link-to-repo](https://github.com/TarlanKew/lab4)
+11. [lab4-link-to-hosting](https://tarlankew.github.io/lab4/)
