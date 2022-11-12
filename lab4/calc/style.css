@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:700&display=swap");
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  background: #fff;
+}
+
+.calc-container {
+  width: 35rem;
+  height: 37.5rem;
+  margin: 5rem auto;
+  border-radius: 2.6rem;
+  box-shadow: 0 0 0 2px #b18597, 0 1em 0 0 #ffe3e2;
+}
+
+.screen {
+  width: 100%;
+  height: 120px;
+  background-color: #f9c4d2;
+  border-radius: 2.5rem 2.5rem 0px 0px;
+}
+
+.js_screen {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 5rem;
+  padding-right: 2rem;
+  width: 100%;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 330px 225px;
+  height: 480px;
+}
+
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  vertical-align: middle;
+  text-decoration: none;
+  font-family: inherit;
+}
+
+button.key {
+  font-weight: 600;
+  color: #382b22;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 35px;
+  width: 90px;
+  height: 90px;
+  background: #fff0f0;
+  border: 2px solid #b18597;
+  border-radius: 50%;
+  transition: transform 0.15s;
+  transform-style: preserve-3d;
+}
+
+button.key::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #f9c4d2;
+  border-radius: inherit;
+  box-shadow: 0 0 0 2px #b18597, 0 0.4em 0 0 #ffe3e2;
+  transform: translate3d(0, 0.25em, -1em);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+button.key:hover {
+  background: #ffe9e9;
+}
+
+button.key:active {
+  background: #ffe9e9;
+  transform: translate(0em, 0.25em);
+}
+
+button.key:active::before {
+  box-shadow: 0 0 0 2px #b18597, 0 0 #ffe3e2;
+  transform: translate3d(0, 0, -1em);
+}
+
+.digits {
+  border-right: 2px solid #f9c4d2;
+}
+
+.digits>.key {
+  margin: 10px 5px 10px 10px;
+}
+
+.other>.key {
+  margin: 10px 10px 10px 10px;
+}
