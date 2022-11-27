@@ -14,5 +14,3 @@
 10. [lab4-link-to-repository](https://github.com/TarlanKew/lab4)
 11. [lab4-link-to-hosting](https://tarlankew.github.io/lab4/)
 --------------------------------------------------------------
-12. [lab5-link-to-repository](https://github.com/TarlanKew/Kuliev-211-352-web-dev-2022-1/tree/main/lab5)
-13. [lab5-link-to-hosting](https://tarlankew.github.io/lab5/)
