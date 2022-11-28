@@ -14,3 +14,5 @@
 10. [lab4-link-to-repository](https://github.com/TarlanKew/lab4)
 11. [lab4-link-to-hosting](https://tarlankew.github.io/lab4/)
 --------------------------------------------------------------
+12. [lab5-link-to-repository](https://github.com/TarlanKew/lab5)
+13. [lab5-link-to-hosting](https://tarlankew.github.io/lab5/)
