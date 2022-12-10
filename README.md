@@ -16,3 +16,6 @@
 --------------------------------------------------------------
 12. [lab5-link-to-repository](https://github.com/TarlanKew/lab5)
 13. [lab5-link-to-hosting](https://tarlankew.github.io/lab5/)
+--------------------------------------------------------------
+14. [lan6-link-to-repository](https://github.com/TarlanKew/lab6/)
+15. [lab6-link-to-hosting](https://tarlankew.github.io/lab6/)
