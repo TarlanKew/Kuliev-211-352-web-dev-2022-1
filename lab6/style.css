@@ -1,0 +1,17 @@
+.hero,
+.form {
+  background-color: #01e3e0;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.list {
+  font-size: 24px;
+}
+
+.list__link {
+  text-decoration: none;
+  color: black;
+}
